@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    width: 50%;
+    float: left;
+    padding: 10px;
+}
+
+.column-left {
+    background-color: rgb(236, 119, 138);
+}
+
+.column-right {
+    background-color: rgb(202, 185, 188);
+}
+
+h3,
+p {
+    text-align: center;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 992px) {
+    .column {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .column {
+        width: 100%;
+    }
+}
